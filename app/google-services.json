@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661031697500",
+    "firebase_url": "https://musicstore-41af8.firebaseio.com",
+    "project_id": "musicstore-41af8",
+    "storage_bucket": "musicstore-41af8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661031697500:android:655fd9c1a0bc1f94aeba99",
+        "android_client_info": {
+          "package_name": "com.example.music_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661031697500-53g8mopke8o69ejpki8mqr00i54t58og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.music_store",
+            "certificate_hash": "42aa31f1067d19178b07946dbb50112c055af5d4"
+          }
+        },
+        {
+          "client_id": "661031697500-f61f0qu92to1dh0i3m00o4fhd7h660np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCamCnDw8A8xEUgqtX3Uyf5pgecRyUub0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661031697500-f61f0qu92to1dh0i3m00o4fhd7h660np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
