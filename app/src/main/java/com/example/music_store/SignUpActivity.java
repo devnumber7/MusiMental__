@@ -106,7 +106,7 @@ public class SignUpActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Enter Email", Toast.LENGTH_SHORT).show();
                 }
                 else if (!email.getText().toString().matches(emailPattern)) {
-                    YoYo.with(Techniques.FadeOutDown)
+                    YoYo.with(Techniques.Tada)
                             .duration(200)
                             .repeat(1)
                             .playOn(findViewById(R.id.email));
@@ -133,23 +133,15 @@ public class SignUpActivity extends AppCompatActivity {
                 }*/ }else {
 
 
-                loadingBar.setTitle("Create Account");
-                loadingBar.setMessage("Please Wait While We are Checking Credentials");
-                loadingBar.setCanceledOnTouchOutside(false);
-                loadingBar.show();
+                    loadingBar.setTitle("Create Account");
+                    loadingBar.setMessage("Please Wait While We are Checking Credentials");
+                    loadingBar.setCanceledOnTouchOutside(false);
+                    loadingBar.show();
 
-                ValidateEmailAddress(inputfirstname, inputlastname, inputemail, inputpassword) ;
-
+                    ValidateEmailAddress(inputfirstname, inputlastname, inputemail, inputpassword);
 
                 }
-
-
-
-
             }
-
-
-
             private void ValidateEmailAddress(final String inputfirstname, final String inputlastname, final String inputemail, final String inputpassword) {
 
 
@@ -199,7 +191,7 @@ public class SignUpActivity extends AppCompatActivity {
 
 
                         }else{
-                            Toast.makeText(SignUpActivity.this, "This Email Already Exixts, Please Use Antoher Email", Toast.LENGTH_SHORT).show(); ;
+                            Toast.makeText(SignUpActivity.this, "This Email Already Exixts, Please Use Antoher Email", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
                             Intent intent = new Intent(SignUpActivity.this, MainActivity.class) ;
                             startActivity(intent);

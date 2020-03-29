@@ -33,30 +33,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Paper.init(this);
 
         loadingBar = new ProgressDialog(this) ;
 
-        Animation frombuttom;
+
         Button signupbtn = findViewById(R.id.signup);
         TextView signinbtn = findViewById(R.id.signin);
-        TextView musi = findViewById(R.id.musi)  ;
-        TextView mental = findViewById(R.id.mental)  ;
-
-
-     /*   frombuttom = AnimationUtils.loadAnimation(this, R.anim.welcomeanimation) ;
-
-        frombuttom.setDuration(1000);
-        musi.setAnimation(frombuttom);
-
-        mental.setAnimation(frombuttom) ;
-*/
-
-        YoYo.with(Techniques.Tada)
-                .duration(700)
-                .repeat(1)
-                .playOn(findViewById(R.id.musimental));
-
+//
+//        TypeWriter tw = (TypeWriter)findViewById(R.id.musimental) ;
+//        tw.setText("");
+//        tw.setCharacterDelay(200);
+//        tw.animateText("MusiMental");
+//
 
         signinbtn.setOnClickListener(new View.OnClickListener() {
             @Override
