@@ -16,8 +16,9 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="200dp"
         android:text="SIGN IN"
+
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="50sp"
+        android:textSize="45sp"
         android:textStyle="bold" />
 
     <EditText
@@ -25,15 +26,15 @@
             android:id="@+id/emailinput"
             android:layout_marginStart="10dp"
             android:layout_below="@id/signinlabel"
-            android:layout_width="400dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:hint="@string/email"
-            android:padding="2dp"
+            android:padding="5dp"
         android:paddingStart="15dp"
-            android:textColor="#707070"
+            android:textColor="#555"
             android:background="@drawable/signinbg"
-            android:inputType="textEmailAddress"
+            android:inputType="textWebEmailAddress"
             android:importantForAutofill="no"
             android:textColorHint="#707070"
 
@@ -44,7 +45,7 @@
             android:id="@+id/passwordinput"
             android:layout_marginStart="10dp"
             android:layout_below="@id/emailinput"
-            android:layout_width="400dp"
+            android:layout_width="350dp"
             android:textColorHint="#707070"
             android:background="@drawable/signinbg"
             android:layout_height="wrap_content"
@@ -52,8 +53,8 @@
 
             android:paddingStart="15dp"
             android:hint="@string/password"
-            android:textColor="#707070"
-            android:padding="2dp"
+            android:textColor="#555"
+            android:padding="5dp"
             android:layout_marginTop="15dp"
             android:inputType="textPassword"
             android:importantForAutofill="no" />
@@ -66,7 +67,8 @@
         android:layout_below="@id/passwordinput"
         android:layout_marginTop="20dp"
         android:padding="3dp"
-        android:text="Remember Me"
+        android:layout_marginStart="3dp"
+        android:text="@string/remember_me"
         android:textColor="#000">
 
     </CheckBox>
@@ -78,7 +80,7 @@
         android:layout_height="wrap_content"
         android:text="Forgot Password"
         android:textColor="#000"
-        android:padding="10dp"
+        android:padding="6dp"
         android:layout_below="@id/passwordinput"
         android:layout_alignParentRight="true" >
 

@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">MUSIMENTAL</string>
-    <string name="musi">MUSI</string>
-    <string name="mental">MENTAL</string>
+    <string name="musimental">MUSIMENTAL</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
-    <string name="contentDesc">i hate my life</string>
+    <string name="contentDesc">Background Sign Up</string>
     <string name="already_have_an_account_sign_in">Already Have An Account? , Sign In</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="password">Password</string>
@@ -12,5 +11,6 @@
     <string name="welcome">WELCOME</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
+    <string name="remember_me">Remember Me</string>
 
 </resources>

@@ -8,41 +8,21 @@
     android:background="@drawable/backgroundimg"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/musimental"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp">
-
-        <TextView
-            android:id="@+id/musi"
-            android:layout_width="98dp"
-            android:layout_height="49dp"
-            android:layout_marginStart="30dp"
+    <com.example.music_store.TypeWriter
+            android:id="@+id/musimental"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
-            android:text="@string/musi"
+            android:text="@string/musimental"
             android:textColor="@color/colorPrimary"
             android:textSize="35sp"
             android:textStyle="bold"
-            />
+        android:layout_centerHorizontal="true"/>
 
-        <TextView
-            android:id="@+id/mental"
-            android:layout_width="165dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="120dp"
-
-            android:text="@string/mental"
-            android:textColor="@color/colorPrimary"
-            android:textSize="35sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
     <Button
         android:id="@+id/signup"
         android:layout_width="262dp"
-        android:layout_height="67dp"
+        android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:text="@string/sign_up"
         android:textColor="@color/colorPrimary"
@@ -53,11 +33,12 @@ android:layout_centerHorizontal="true"
 
     <TextView
         android:id="@+id/signin"
-        android:layout_width="248dp"
-        android:layout_height="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
         android:text="@string/sign_in"
+        android:padding="10dp"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
